@@ -81,6 +81,10 @@ video {
     width: 250px;
     height: 350px;
 }
+.card a{
+    text-decoration: none;
+    color: white;
+}
 .card p{
     margin: 10px;
     font-size: small;
