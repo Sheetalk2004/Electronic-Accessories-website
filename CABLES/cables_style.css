@@ -94,7 +94,10 @@ body{
     transition-duration: 0.3s;
     white-space: nowrap;
 }
-
+.btn1 a{
+    text-decoration: none;
+    color: inherit;
+}
 .btn1:hover{
     transform: translateY(-1px);
     box-shadow:0 8px 25px 0 rgba(148, 85, 85, 0.6);

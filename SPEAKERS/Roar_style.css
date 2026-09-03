@@ -22,7 +22,6 @@ body{
     position:fixed;
     z-index: 1000;
 }
-
 .logo img{
     height: 40px;
     width: 80px;
@@ -184,7 +183,17 @@ input[name="slider"] {
     border: none;
     margin:20px 0px 20px 0px;
 }
-
+.btn2 a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn2:hover{
+    background-color: rgb(244, 244, 250);
+    transition: 0.3s;
+    color: rgb(44, 129, 179);
+    border: 1px solid rgb(97, 101, 102);
+    cursor: pointer;
+}
 
 .container-2{
     margin-top: 150px;
